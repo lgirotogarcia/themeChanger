@@ -1,0 +1,3 @@
+Este repositório foi feito para aprendizado para aperfeiçoar a alteração de tema de cores de uma aplicação. Basta clicar no botão ao centro da página para que seja alterado o tema da mesma.
+
+Encontrei dificuldades quanto ao uso do DOM, e consultei o MDN para poder entender melhor como usar as funções, e também o repositório da instrutora para poder entender melhor como criar a função para tal. Após uma sintetização dos dados vistos, pude escrever minha versão do código.
