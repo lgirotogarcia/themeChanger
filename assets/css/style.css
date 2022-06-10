@@ -1,0 +1,72 @@
+body {
+    background-color: rgb(19, 19, 19);
+    color: rgb(217, 217, 217);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Roboto Mono', monospace;
+    transition: all 0.5s linear;
+}
+
+body.light-mode {
+    background-color: rgb(217, 217, 217);
+    color: rgb(19, 19, 19);
+}
+
+body.light-mode button {
+    background-color: rgb(19, 19, 19);
+    color: rgb(217, 217, 217);
+}
+
+body.light-mode button:hover {
+    background-color: rgb(43, 43, 43);
+}
+
+body.light-mode footer {
+    background-color: rgb(192, 192, 192);
+    color:rgb(19, 19, 19)
+}
+
+main {
+    height: 70vh;
+    width: 100%;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+h1 {
+    font-weight: 600;
+    font-size: 60px;
+}
+
+button {
+    background-color: rgb(217, 217, 217);
+    height: 40px;
+    width: 200px;
+    font-size: 1.3rem;
+    font-weight: 400;
+    border-radius: 40px;
+    border-style: none;
+    cursor: pointer;
+    transition: all 0.5s linear;
+}
+
+button:hover{
+    background-color: rgb(198, 198, 198);
+}
+
+footer {
+    width: 100%;
+    position: fixed;
+    padding: 16px;
+    bottom: 0;
+    text-align: center;
+    background-color: rgb(30, 30, 30);
+    font-weight: 400;
+    font-size: 15px;
+    color: rgb(217, 217, 217);
+    transition: all 0.5s linear;
+}
